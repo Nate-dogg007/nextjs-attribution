@@ -111,7 +111,7 @@ export default function ContactPageClient() {
 
 In `app/api/contact/route.ts` add a sanitiser for the attribution object:
 
-```
+```ts
 // app/api/contact/route.ts
 import { NextResponse } from "next/server";
 
